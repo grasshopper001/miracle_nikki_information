@@ -16,8 +16,8 @@ people::people(string text, string name, string family)
 void people::print_message(bool displayflag[6])
 {
     if (displayflag[0]) cout << "name:" << this->subject[0] << endl;
-    if (displayflag[1]) cout << "family" << this->subject[1] << endl;
-    if (displayflag[5]) cout << "人设" << this->text << endl;
+    if (displayflag[1]) cout << "family:" << this->subject[1] << endl;
+    if (displayflag[5]) cout << "人设:" << this->text << endl;
     cout << "*****" << endl;
 }
 
