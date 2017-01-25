@@ -24,6 +24,6 @@ public:
     bool check(string sub);
     void print_appearing(bool displayFlag[6]);
     virtual void print_message(bool displayFlag[6])=0;
-    virtual void link(message &info);
+    virtual void link(message *info);
 };
 #endif //INFOS_MESSAGE_H

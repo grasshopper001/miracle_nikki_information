@@ -11,7 +11,7 @@
 using namespace std;
 class data{
 protected:
-    vector<message> database;
+    vector<message*> database;
 public:
     data();
     void refresh();
