@@ -4,7 +4,8 @@
 
 #include "message.h"
 using namespace std;
-message::message(string text,string sub,string sub1="",string sub2="",string sub3="",string sub4=""):text(text){
+
+message::message(string text,string sub,string sub1,string sub2,string sub3,string sub4):text(text){
     subject[0]=sub;
     if(sub1!=""){subject[1]=sub1;}
     if(sub2!=""){subject[2]=sub2;}
